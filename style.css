@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e4f6f8;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-block: 5px;
+  border: 1px solid blue;
+  border-radius: 3px;
+}
+
+#errDisplay {
+  min-height: 1em;
+}
+
+input#submit {
+  background-color: #5ec5ff;
+  color: white;
+  font-size: 20px;
+  font-family: Verdana;
+}
